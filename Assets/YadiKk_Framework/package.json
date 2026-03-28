@@ -1,0 +1,15 @@
+{
+  "name": "com.yadikk.framework",
+  "version": "1.0.1",
+  "displayName": "YadiKk Framework",
+  "description": "Professional Mobile & Hyper-casual toolkit.",
+  "unity": "2021.3",
+  "author": { "name": "YadiKk" },
+  "samples": [
+    {
+      "displayName": "Demo and Prefabs",
+      "description": "Ready-to-use prefabs and demo scenes for YadiKk Framework.",
+      "path": "Samples~/DemoAndPrefabs"
+    }
+  ]
+}
