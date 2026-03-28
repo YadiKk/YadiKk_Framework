@@ -1,4 +1,4 @@
-# YadiKk Framework Repository
+# YadiKk Framework Repository: The Essential Mobile Toolkit for Unity
 
 This is the host repository for the **YadiKk Framework** UPM package.
 
