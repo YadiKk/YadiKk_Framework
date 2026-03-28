@@ -8,8 +8,7 @@ The framework is designed as a standalone Unity Package. You can install it dire
 1. Open **Window \> Package Manager** in Unity.
 2. Click the `+` button in the top left and select **"Add package from git URL..."**.
 3. Paste the following URL:
-   `https://github.com/USERNAME/REPO.git?path=/Packages/com.yadikk.framework`
-   *(Replace USERNAME/REPO with actual names)*
+   `https://github.com/YadiKk/YadiKk_Framework.git?path=/Packages/com.yadikk.framework`
 4. Click **Add**.
 
 ## Demos & Samples
