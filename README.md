@@ -1,2 +1,16 @@
-# YadiKk_Framework
-A high-performance, modular Unity framework for creating mobile and extremely casual games quickly. comprises editor extensions, UI tools, and core managers.
+# YadiKk Framework Repository
+
+This is the host repository for the **YadiKk Framework** UPM package.
+
+## Installation
+The framework is designed as a standalone Unity Package. You can install it directly from Git via the Unity Package Manager.
+
+1. Open **Window \> Package Manager** in Unity.
+2. Click the `+` button in the top left and select **"Add package from git URL..."**.
+3. Paste the following URL:
+   `https://github.com/USERNAME/REPO.git?path=/Packages/com.yadikk.framework`
+   *(Replace USERNAME/REPO with actual names)*
+4. Click **Add**.
+
+## Demos & Samples
+Once installed, you can import the "Demo and Prefabs" from the package's Samples section in the Package Manager.

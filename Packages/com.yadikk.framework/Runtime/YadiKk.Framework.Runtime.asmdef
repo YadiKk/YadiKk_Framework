@@ -1,12 +1,8 @@
 {
-    "name": "YadiKk.Editor",
-    "rootNamespace": "YadikkFramework.Editor",
-    "references": [
-        "GUID:0890279dfa121074095f48f683075e9d"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "name": "YadiKk.Framework.Runtime",
+    "rootNamespace": "YadikkFramework",
+    "references": [],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

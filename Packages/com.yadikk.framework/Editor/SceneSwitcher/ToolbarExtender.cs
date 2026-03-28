@@ -17,10 +17,15 @@ namespace YadikkFramework.Editor
         {
             GUILayout.BeginHorizontal();
 
-            foreach (var handler in RightToolbarGUI)
-                handler?.Invoke();
-
-            GUILayout.EndHorizontal();
+            try
+            {
+                foreach (var handler in RightToolbarGUI)
+                    handler?.Invoke();
+            }
+            finally
+            {
+                GUILayout.EndHorizontal();
+            }
         }
     }
 }
