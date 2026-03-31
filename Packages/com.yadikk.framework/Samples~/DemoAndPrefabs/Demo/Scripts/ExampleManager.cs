@@ -30,4 +30,17 @@ public class ExampleManager : MonoBehaviour
         }
         AudioManager.Instance.StopMusic();
     }
+
+    public void VibrateH()
+    {
+        VibrationManager.Vibrate(VibrationManager.VibrationStrength.High, 300);
+    }
+    public void VibrateN()
+    {
+        VibrationManager.Vibrate(VibrationManager.VibrationStrength.Normal, 300);
+    }
+    public void VibrateL()
+    {
+        VibrationManager.Vibrate(VibrationManager.VibrationStrength.Low, 300);
+    }
 }
