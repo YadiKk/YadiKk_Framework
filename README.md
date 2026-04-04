@@ -29,7 +29,7 @@ You can install this framework directly from GitHub into any Unity Project witho
 2. Click the `+` button in the top left and select **Add package from git URL...**
 3. Paste the following URL:
    ```text
-   https://github.com/USERNAME/REPO.git?path=/Packages/com.yadikk.framework
+   https://github.com/YadiKk/YadiKk_Framework.git?path=/Packages/com.yadikk.framework
    ```
    *(Update `USERNAME/REPO` to match the exact GitHub repository URL before pasting)*
 4. Click **Add**.
