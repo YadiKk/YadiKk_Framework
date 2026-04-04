@@ -8,7 +8,7 @@
 
 ---
 
-## 📖 Welcome
+## Welcome
 
 Welcome to the host repository for the **YadiKk Framework**. This library is strictly formatted as a Unity Package Manager (UPM) package, ensuring that your core game logic remains clean, separate from library code, and easily updatable across all your projects.
 
