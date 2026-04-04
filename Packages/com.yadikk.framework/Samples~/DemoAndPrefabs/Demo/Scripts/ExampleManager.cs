@@ -43,4 +43,17 @@ public class ExampleManager : MonoBehaviour
     {
         VibrationManager.Vibrate(VibrationManager.VibrationStrength.Low, 300);
     }
+
+
+    public void NextScene()
+    {
+       
+        SceneLoader.Instance.LoadScene("ExampleScene2");
+    }
+    public void BackScene()
+    {
+      
+        SceneLoader.Instance.LoadScene("Demo");
+    }
+
 }
