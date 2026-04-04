@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Samples/YadiKk Framework/1.0.35/Demo and Prefabs/Demo/Scenes/Demo.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Samples/YadiKk Framework/1.0.35/Demo and Prefabs/Demo/Scenes/ExampleScene2.unity
+    path: Assets/Samples/YadiKk Framework/1.0.45/Demo and Prefabs/Demo/Scenes/GameIn.unity
     guid: b6750e5096d45084f8c20455585c8a65
   m_configObjects: {}
