@@ -1,29 +1,57 @@
-# YadiKk Framework Repository: The Essential Mobile Toolkit for Unity
+<br/>
+<div align="center">
+  <h1 align="center">YadiKk Framework</h1>
+  <p align="center">
+    <strong>A professional, modular, and highly scalable toolkit for Unity Mobile & Hyper-Casual development.</strong>
+  </p>
+</div>
 
-This is the host repository for the **YadiKk Framework** UPM package.
+---
 
-## Installation
-The framework is designed as a standalone Unity Package. You can install it directly from Git via the Unity Package Manager.
+## 📖 Welcome
+
+Welcome to the host repository for the **YadiKk Framework**. This library is strictly formatted as a Unity Package Manager (UPM) package, ensuring that your core game logic remains clean, separate from library code, and easily updatable across all your projects.
+
+## ✨ Core Features
+
+*   **🎮 Game State Management:** Safe macro-state control with decoupled UI pausing (`Time.timeScale` safe).
+*   **💾 Persistent Save System:** Native `JsonUtility` & `PlayerPrefs` wrapper that auto-loads your custom settings out-of-the-box.
+*   **🖼️ Modular UI Architecture:** Panel-based navigation stack with CanvasGroup logic (no expensive `Rebuilds`).
+*   **🎬 Scene Management:** Streamlined level loading APIs.
+*   **🔊 Audio & Haptics:** Native vibration integration tailored for high-performance mobile execution.
+*   **🛠️ Editor Tools:** Quick 'SceneSwitcher' toolbar drop-down right inside your Unity Editor.
+
+## 🚀 Installation
+
+You can install this framework directly from GitHub into any Unity Project without downloading raw files.
 
 1. Open **Window > Package Manager** in Unity.
-2. Click the `+` button in the top left and select **"Add package from git URL..."**.
+2. Click the `+` button in the top left and select **Add package from git URL...**
 3. Paste the following URL:
-   `https://github.com/YadiKk/YadiKk_Framework.git?path=/Packages/com.yadikk.framework`
-
+   ```text
+   https://github.com/USERNAME/REPO.git?path=/Packages/com.yadikk.framework
+   ```
+   *(Update `USERNAME/REPO` to match the exact GitHub repository URL before pasting)*
 4. Click **Add**.
 
-## Features
+## 📚 Documentation
 
-### Scene Selector (Editor Tool)
-A powerful editor utility that automatically lists all scenes added to your **Build Settings**. 
-* Access it via the Unity Editor to switch between scenes instantly during development.
-* No more searching through folders to find your levels.
+We provide extensive, sector-standard documentation integrated directly into the Package Manager.
 
-### Audio Management
-A flexible audio system built on a **Persistent Singleton** architecture.
-* **AudioManager:** Handles background music and SFX globally.
-* **Ready-to-use Prefab:** Includes a pre-configured AudioManager prefab for quick setup.
-* **Sound Search:** Efficiently find and play sounds by name using an optimized internal lookup.
+👉 **[Read the Full Documentation Here](Packages/com.yadikk.framework/Documentation~/index.md)** 👈
 
-## Demos & Samples
-Once installed, you can import the "Demo and Prefabs" from the package's Samples section in the Package Manager to see these systems in action.
+Or access it inside Unity:
+*   Once installed, select the **YadiKk Framework** in the Package Manager.
+*   Click **View Documentation** to open the integrated markdown webview.
+
+## 🎮 Samples & Prefabs
+
+The package comes bundled with ready-to-use prefabs and demo scenes. 
+*   Open the **Package Manager**.
+*   Select **YadiKk Framework**.
+*   Navigate to the **Samples** tab and click **Import** next to "Demo and Prefabs".
+
+---
+<div align="center">
+  <sub>Built for Performance. Designed for Scale.</sub>
+</div>
