@@ -13,5 +13,6 @@
       "description": "Ready-to-use prefabs and demo scenes.",
       "path": "Samples~/DemoAndPrefabs"
     }
-  ]
+  ],
+  "documentationUrl": "https://github.com/USERNAME/REPO/blob/main/Packages/com.yadikk.framework/Documentation~/index.md"
 }
