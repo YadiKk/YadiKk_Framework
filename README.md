@@ -14,12 +14,12 @@ Welcome to the host repository for the **YadiKk Framework**. This library is str
 
 ## Core Features
 
-*   ** Game State Management:** Safe macro-state control with decoupled UI pausing (`Time.timeScale` safe).
-*   ** Persistent Save System:** Native `JsonUtility` & `PlayerPrefs` wrapper that auto-loads your custom settings out-of-the-box.
-*   ** Modular UI Architecture:** Panel-based navigation stack with CanvasGroup logic (no expensive `Rebuilds`).
-*   ** Scene Management:** Streamlined level loading APIs.
-*   ** Audio & Haptics:** Native vibration integration tailored for high-performance mobile execution.
-*   ** Editor Tools:** Quick 'SceneSwitcher' toolbar drop-down right inside your Unity Editor.
+*   **Game State Management:** Safe macro-state control with decoupled UI pausing (`Time.timeScale` safe).
+*   **Persistent Save System:** Native `JsonUtility` & `PlayerPrefs` wrapper that auto-loads your custom settings out-of-the-box.
+*   **Modular UI Architecture:** Panel-based navigation stack with CanvasGroup logic (no expensive `Rebuilds`).
+*   **Scene Management:** Streamlined level loading APIs.
+*   **Audio & Haptics:** Native vibration integration tailored for high-performance mobile execution.
+*   **Editor Tools:** Quick 'SceneSwitcher' toolbar drop-down right inside your Unity Editor.
 
 ##  Installation
 
