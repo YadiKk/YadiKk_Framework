@@ -33,9 +33,9 @@ namespace YadikkFramework.Editor
 
             if (root == null) return;
 
-            var rightZone = root.Q("ToolbarZoneRightAlign");
+            var playModeZone = root.Q("ToolbarZonePlayMode");
 
-            if (rightZone == null) return;
+            if (playModeZone == null) return;
 
             var container = new IMGUIContainer(() =>
             {
@@ -46,7 +46,11 @@ namespace YadikkFramework.Editor
                 catch { }
             });
 
-            rightZone.Add(container);
+            container.style.flexDirection = FlexDirection.Row;
+            container.style.marginLeft = 5;
+
+            
+            playModeZone.Add(container);
         }
     }
 }
